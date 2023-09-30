@@ -1,0 +1,28 @@
+.a{
+    background-color:black;
+    color:white;
+    height:40px;
+    width:100px;
+    cursor:pointer;
+    border:none;
+   
+}
+.b{
+    background-color: rgb(255,216,20);
+    border-radius:20px;
+    width:200px;
+    height:40px;
+    border-width:1px;
+    cursor:pointer;
+    border-style:solid;
+    font-size: 15px;
+  
+}
+.a:hover{
+    background-color: red;
+    opacity:0.8;
+    transition: opacity 5s;
+}
+.b:active{
+    background-color: aqua;
+}
